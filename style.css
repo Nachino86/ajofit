@@ -1,0 +1,225 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(font/Candlefish.ttf);
+  }
+  
+@font-face {
+    font-family: mysecondFont;
+    src: url(font/coolvetica\ rg\ it.otf);
+  }
+
+@font-face {
+    font-family: mythirdFont;
+    src: url(font/coolvetica\ rg.otf);
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family:mysecondFont;
+    box-sizing: border-box;
+}
+
+
+
+#contenedor {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, rgba(0, 210, 95, 0.781), #83cd02bb);
+    padding: 10px;
+ 
+
+}
+
+#calcuapp {
+    width:100%;
+    max-width: 540px;
+    background: #eeeded;
+    margin: 100px auto 20px;
+    padding: 40px 30px 200px;
+    border: 1px solid rgba(0, 0, 0, 0.373);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#calcuapp h1{
+    color: darkblue;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+#calcuapp h1 img {
+    width: 30px;
+    margin-left: 10px;
+
+}
+
+#barrita {
+        display: flex;
+        height: 3rem;
+        align-items: first baseline;
+        justify-content: center;
+        background: transparent;
+        border-radius: 30px;
+        padding-left: 30px;
+        margin-top: 3rem;
+        margin-bottom: 10rem;
+        flex-direction: column;
+        
+      }
+
+#bppal {
+    flex: 1;
+    outline: none;
+    padding: 10px;
+    font-weight: 14px;
+    background-color: rgba(160, 221, 160, 0.648);
+    border-radius: 5%;
+
+}
+
+
+.ubusc {
+    flex: 2;
+    position: absolute;
+    display: inline-flex;
+    list-style-type: none;
+    flex-direction: column;
+
+}
+
+.ibusc {
+    display: flex;
+    list-style-type: none;
+    font-size: small;
+    padding: 0.5rem;
+    margin: 0.3rem;
+    border-radius: 6%;
+    border-style:double;
+    border-color: rgba(92, 6, 6, 0.486);
+
+}
+
+ul li:hover{
+    text-decoration: underline;
+    color: rgb(217, 0, 255);
+    cursor: pointer;
+
+}
+
+.papelera {
+    width: 2rem;
+    height: 2rem;
+}
+
+.papelera:hover {
+    cursor: pointer;
+}
+
+
+#metodo {
+    outline: none;
+    visibility: hidden;
+}
+
+#unidad {
+    outline: none;
+    visibility: hidden;
+    color: transparent;
+}
+
+#cantidad {
+    outline: none;
+    visibility: hidden;
+    color: transparent;
+}
+
+#carrito {
+    
+    position: relative;
+    height: 150px;
+    width: 300px;
+    background-color: rgba(143, 188, 143, 0.595);
+    border: 1px solid black;
+    margin: auto;
+    visibility: hidden;
+    
+}
+
+#mostrar {
+    box-shadow: 3rem;
+    font-family:mythirdFont;
+    width: 5rem;
+    height: 2.5rem;
+    border: transparent;
+    background-color: rgb(228, 189, 143);
+    border-radius: 7%;
+    margin-top: 3.5rem;
+    float: right;
+}
+
+#mostrar:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(207, 149, 12);
+    transition: ease-in-out 0.2s;
+}
+
+th {
+    column-width: 13rem;
+    height: 3rem;
+    align-items: center;
+}
+
+td {
+    column-width: 13rem;
+    height: 3rem;
+
+
+}
+
+.cant {
+    background-color: transparent;
+    border: transparent;
+    width: 3rem;
+    font-family:mythirdFont;
+
+}
+
+.unidad {
+    background-color: transparent;
+    border: transparent;
+    width: 7rem;
+    font-family:mythirdFont;
+
+    
+}
+
+#resultado {
+    padding-top: 7rem;
+    font-size: small;
+}
+
+#logo {
+position: relative;
+display: inline;
+object-fit: cover;
+}
+
+.ing{
+    width: 10rem;
+}
+
+.titulo {
+    height: 5rem;
+}
+
+h1 {
+    font-family: myFirstFont;
+    font-size:4rem;
+    margin-left: 7rem;
+    
+}
