@@ -11,6 +11,11 @@
 
 <body>
     <div id="contenedor">
+        <div id="encabezado"> 
+            <div class="enc-elem"><a href="registrar.php">Regístrate</a></div>
+            <div class="enc-elem"> | </div>
+            <div class="enc-elem"><a href="session.php"> Inicia Sesión </a></div>
+        </div>
         <div id="calcuapp">
             <div class="titulo">
                 <h1> AjoFit <img id="logo" src="img/ajito.png" alt="Logo Calcuapp"></h1>

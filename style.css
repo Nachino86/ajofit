@@ -26,11 +26,19 @@
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(135deg, rgba(0, 210, 95, 0.781), #83cd02bb);
-    padding: 10px;
+    padding: 1px;
  
 
 }
 
+#encabezado {
+    background-color: blueviolet;
+
+}
+
+.enc-elem {
+    display: inline-block;
+}
 #calcuapp {
     width:100%;
     max-width: 540px;
